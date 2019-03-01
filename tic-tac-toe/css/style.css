@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    height: 600px;
+    width: 500px;
+    margin: 25vh auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ul {
+    padding-top: 15px;
+    height: 65px;
+}
+
+li {
+    display: inline;
+    font-size: 1.2em;
+}
+
+#turn-instructions {
+    float: left;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+#player-image {
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#player-image img {
+    width: 50px;
+    height: 50px;
+}
+
+#cells {
+    height: 454px;
+    width: 454px;
+    margin-top: 20px; 
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(250, 250, 250);
+}
+#cells div {
+    width: 150px;
+    height: 150px;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cell-1 {
+    border: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+#cell-2 {
+    border: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+#cell-3 {
+    border: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+}
+
+#cell-4 {
+    border: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+#cell-5 {
+    border: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    border-right-style: solid;
+}
+
+#cell-6 {
+    border: 2px;
+    border-color: black;
+    border-bottom-style: solid; 
+}
+
+#cell-7 {
+    border: 2px;
+    border-color: black;
+    border-right-style: solid;
+}
+
+#cell-9 {
+    border: 2px;
+    border-color: black;
+    border-left-style: solid;
+}
+.message {
+    width: 350px !important;
+    height: 150px !important;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    background-color: rgb(67, 205, 124);
+    text-align: center;
+    visibility: hidden;
+}
+.message button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(35, 159, 153);
+    border: 0px;
+    color: white;
+    font-size: 1.3em;
+    border-radius: 2px;
+    font-weight: 200;
+}
