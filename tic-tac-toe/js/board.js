@@ -132,6 +132,7 @@ class Board {
       this.onGameFinished(firstDiagonal);
       return;
     }
+    /* Case when there is no winner. */
     let allNotNull = true;
     for (let row of this.cellsObjects) {
       for (let cellObject of row) {
